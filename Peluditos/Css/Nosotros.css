@@ -8,8 +8,9 @@ section{
     align-items: center;
 }
 
-.cardStaf{
+div.cardStaf{
     margin: 10% 5% 0 5%;
+    height: 185px;
     border-radius: 2%;
     border: 1px solid #CD8D39;
     background-color: #ffebd1;
@@ -32,7 +33,7 @@ section{
 }
 
 .imgStaf img{
-    width: 110px;
+    width: 100px;
     border-radius: 55%;
     margin-left: 5%;
 }
@@ -64,4 +65,107 @@ section{
 
 .reversed div.textStaf{
     margin-left: 2%;
+}
+
+@media screen and (min-width: 430px) {
+    div.cardStaf{
+        margin: 5% 7% 0 7%;
+        height: 290px;
+    }
+
+    #firstCard{
+        margin-top: 10%;
+    }
+
+    .textStaf p {
+        font-size: 15px;
+        margin: 4% 5%;
+    }
+    
+    .textStaf h3 {
+        font-size: 24px;
+    }
+
+    .imgStaf img{
+        width: 130px;
+    }  
+
+    #endCard{
+        margin-bottom: 12%;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    
+    div.cardStaf{
+        margin: 7% 13% 0 13%;
+        height: 250px;
+    }
+
+    #firstCard{
+        margin-top: 10%;
+    }
+
+    .textStaf p {
+        font-size: 15px;
+        margin: 4% 5%;
+    }
+    
+    .textStaf h3 {
+        font-size: 28px;
+    }
+ 
+    #endCard{
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    div.cardStaf{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin: 7% 0;
+        height: 550px;
+    }
+
+    #firstCard{
+        margin: 7% 0;
+    }
+    
+    #endCard{
+        margin: 7% 0;
+    }
+
+    .imgStaf img{
+        width: 130px;
+        margin-bottom: 13%;
+        margin-top: 13%;
+        margin-left: 0;
+    }
+    
+    .textStaf h3 {
+        font-size: 27px;
+        margin-top: 9px;
+        margin-bottom: 10%;
+    }
+    
+    .textStaf p {
+        font-size: 15px;
+        margin: 8% 3%;
+    }
+
+    .reversed div.textStaf{
+        margin-left: 0;
+    }
 }

@@ -27,9 +27,9 @@ header{
 }
 
 .logo img{
-    width: 285px;
+    width: 280px;
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-bottom: 2%;
 }
 
@@ -135,11 +135,26 @@ footer{
     font-size: 25px;
 }
 
+@media screen and (min-width: 480px) {
+    .logo img{
+        margin-left: 8%;
+        width: 315px;
+    }
+
+    .brands{
+        font-size: 35px;
+    }
+
+    button.navbar-toggler{
+    }     
+
+}
 
 @media screen and (min-width: 768px) {
     .brands{
         font-size: 35px;
     }
+
     footer p{
         font-size: 16px;
         padding-top: 2%;
@@ -148,27 +163,29 @@ footer{
 
     .logo img{
         margin-left: 10%;
-        width: 335px;
+        width: 365px;
+    }
+
+    .brands{
+        font-size: 45px;
+    }
+
+    button.navbar-toggler{
+        margin-right: 4%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     
     .logo img{
-        margin-left: 10%;
-        width: 335px;
+        margin-left: 7%;
+        width: 400px;
         margin-top: 4%;
         margin-bottom: 0;
     }
     
     #navbarNav{
-        margin-top: 2%;
-    }
-
-    .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
-        flex-basis: auto;
-        justify-content: space-around;
+        margin-top: 1%;
     }
     
     .nav-link{
@@ -176,9 +193,13 @@ footer{
         border-bottom: 0px;
         background-color: #FAE3C1;
         font-weight: 600;
-    }    
-        header{
+    }  
+
+     header{
         height: 100px;
     }
     
+    .brands{
+        font-size: 55px;
+    }
 }
