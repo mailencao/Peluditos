@@ -136,15 +136,22 @@ div.cardStaf{
         flex-wrap: nowrap;
         justify-content: space-evenly;
         margin: 7% 0;
-        height: 550px;
+        height: 560px;
+        width: 210px;
+        margin: 7% 2%;
     }
 
     #firstCard{
-        margin: 7% 0;
+        margin: 7% 2%;
     }
     
     #endCard{
-        margin: 7% 0;
+        margin: 7% 2%;
+    }
+
+    div.imgStaf{
+        height: 178px;
+        margin-bottom: 2%;
     }
 
     .imgStaf img{
@@ -152,8 +159,13 @@ div.cardStaf{
         margin-bottom: 13%;
         margin-top: 13%;
         margin-left: 0;
+        
     }
     
+    div.textStaf{
+        height: 396px;
+    }
+
     .textStaf h3 {
         font-size: 27px;
         margin-top: 9px;
