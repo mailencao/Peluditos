@@ -135,9 +135,19 @@ footer{
     font-size: 25px;
 }
 
+@media screen and (min-width: 420px) {
+    button.navbar-toggler{
+        margin-right: 9%;
+    } 
+
+     .logo img{
+        margin-left: 12%;
+     }
+}
+
 @media screen and (min-width: 480px) {
     .logo img{
-        margin-left: 8%;
+        margin-left: 12%;
         width: 315px;
     }
 
@@ -146,6 +156,7 @@ footer{
     }
 
     button.navbar-toggler{
+       margin-right: 9%;
     }     
 
 }
@@ -171,23 +182,24 @@ footer{
     }
 
     button.navbar-toggler{
-        margin-right: 4%;
+        margin-right: 9%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     
     .logo img{
-        margin-left: 4%;
+        margin-left: 10%;
         width: 400px;
         margin-top: 4%;
         margin-bottom: 0;
     }
-    
+
     #navbarNav{
+        margin-left: 7%;
         margin-top: 1%;
     }
-    
+        
     .nav-link{
         padding-left: 5%;
         border-bottom: 0px;

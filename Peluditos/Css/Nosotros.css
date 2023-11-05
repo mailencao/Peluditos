@@ -128,6 +128,7 @@ div.cardStaf{
         align-items: center;
         flex-wrap: nowrap;
         justify-content: flex-start;
+        margin: 0 1%;
     }
 
     div.cardStaf{
@@ -137,7 +138,7 @@ div.cardStaf{
         justify-content: space-evenly;
         margin: 7% 0;
         height: 560px;
-        width: 210px;
+        width: 220px;
         margin: 7% 2%;
     }
 
@@ -150,8 +151,8 @@ div.cardStaf{
     }
 
     div.imgStaf{
-        height: 178px;
-        margin-bottom: 2%;
+        height: 150px;
+        margin-bottom: 0%;
     }
 
     .imgStaf img{
@@ -167,14 +168,16 @@ div.cardStaf{
     }
 
     .textStaf h3 {
-        font-size: 27px;
+        font-size: 24px;
         margin-top: 9px;
         margin-bottom: 10%;
+        padding-right: 3%;
+        padding-left: 3%;
     }
     
     .textStaf p {
         font-size: 15px;
-        margin: 8% 3%;
+        margin: 0% 3% 10% 3%;
     }
 
     .reversed div.textStaf{
