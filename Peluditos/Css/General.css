@@ -29,7 +29,7 @@ header{
 .logo img{
     width: 280px;
     margin-top: 3%;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-bottom: 2%;
 }
 
@@ -178,7 +178,7 @@ footer{
 @media screen and (min-width: 1024px) {
     
     .logo img{
-        margin-left: 7%;
+        margin-left: 4%;
         width: 400px;
         margin-top: 4%;
         margin-bottom: 0;

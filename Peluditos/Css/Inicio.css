@@ -91,3 +91,23 @@ div.container-home{
         margin-bottom: 8%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+   
+    div.container-home img{
+        height: 365px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+}
