@@ -24,6 +24,7 @@ body{
 header{
     background-color: #FAE3C1;
     height: 87px;
+    box-shadow: #6b502ca1 0px 1px 17px;
 }
 
 .logo img{
@@ -157,8 +158,11 @@ footer{
 
     button.navbar-toggler{
        margin-right: 9%;
-    }     
-
+    }  
+    
+    header{
+        box-shadow: #6b502ca1 0px 0px 25px;
+      }
 }
 
 @media screen and (min-width: 768px) {
@@ -184,6 +188,10 @@ footer{
     button.navbar-toggler{
         margin-right: 9%;
     }
+
+    header{
+      box-shadow: #6b502ca1 0px 9px 30px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -207,9 +215,16 @@ footer{
         font-size: 55px;
     }
 
+    header{
+        box-shadow: #6b502ca1 0px 0px 27px;
+        }
+
 }
 
 @media screen and (min-width: 1024px) {
+    header{
+    box-shadow: #6b502ca1 0px 1px 27px;
+    }
     
     .logo img{
         margin-left: 10%;
