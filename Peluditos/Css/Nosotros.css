@@ -47,6 +47,7 @@ div.cardStaf{
 .textStaf p {
     font-size: 11px;
     margin-bottom: 5%;
+    margin-right: 2%;
     margin-left: 2%;
 }
 
@@ -61,10 +62,17 @@ div.cardStaf{
 .reversed p{
     margin-left: 0;
     margin-right: 2%;
+    margin-left: 2%;
+}
+
+div.textStaf{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .reversed div.textStaf{
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 @media screen and (min-width: 430px) {
@@ -181,6 +189,6 @@ div.cardStaf{
     }
 
     .reversed div.textStaf{
-        margin-left: 0;
+        margin-left: 2%;
     }
 }
