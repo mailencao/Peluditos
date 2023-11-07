@@ -5,6 +5,7 @@
 h1{
     text-align: center;
     font-size: 22px;
+    margin-top: 8%;
 }
 
 h3{
@@ -12,21 +13,124 @@ h3{
     font-size: 17px;
     margin-left: 7%;
     margin-right: 7%;
-    margin-bottom: 0;
+    margin-bottom: 8%;
+}
+
+.txtContainer{
+    border: solid rgba(196, 162, 117, 0.616) 1px;
+    margin: 9% 9% 2% 6%;
+    border-radius: 3%;
 }
 
 .galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 10%;
 }
 
 .galeria img{
     width: 32%;
     margin: 3%;
     box-shadow: #6d4c20 -1px 1px 12px;
+    border-radius: 4%;
+    transition: 0.5s;
+    object-fit: cover;
 }
 
-img :hover{
+img:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (min-width: 560px){
+    h1{
+        font-size: 27px;
+        margin-top: 6%;
+    }
     
+    h3{
+        font-size: 20px;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 6%;
+    }
+
+    .txtContainer{
+        border: solid rgba(196, 162, 117, 0.616) 1px;
+        margin: 9% 9% 2% 6%;
+        border-radius: 3%;
+    }
+
+    .galeria img{
+        width: 25%;
+        margin: 3%;
+    }
+
+    .galeria{
+        margin: 4% 5% 12% 5%;
+
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    
+    h3{
+        font-size: 27px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 8%;
+    }
+
+    .txtContainer{
+        border: solid rgba(196, 162, 117, 0.616) 1px;
+        margin: 9% 14% 0% 14%;
+        border-radius: 3%;
+    }
+
+    .galeria img{
+        width: 22%;
+        margin: 3%;
+    }
+
+    .galeria{
+        margin: 4% 2% 12% 2%;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1{
+        font-size: 40px;
+        margin-top: 8%;
+    }
+    
+    h3{
+        font-size: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 8%;
+    }
+
+    .txtContainer{
+        border: solid rgba(196, 162, 117, 0.616) 1px;
+        margin: 9% 20% 0% 20%;
+        border-radius: 3%;
+    }
+
+    .galeria img{
+        width: 23%;
+        margin: 3%;
+    }
+
+    .galeria{
+        margin: 3% 6% 10% 6%;
+    }
+
+    img:hover{
+        transform: scale(1.9);
+    }
 }
