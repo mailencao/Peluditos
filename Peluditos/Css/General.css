@@ -186,15 +186,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 1024px) {
-    
-    .logo img{
-        margin-left: 10%;
-        width: 400px;
-        margin-top: 4%;
-        margin-bottom: 0;
-    }
-
+@media screen and (min-width: 992px) {
     #navbarNav{
         margin-left: 7%;
         margin-top: 1%;
@@ -213,5 +205,16 @@ footer{
     
     .brands{
         font-size: 55px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .logo img{
+        margin-left: 10%;
+        width: 400px;
+        margin-top: 4%;
+        margin-bottom: 0;
     }
 }
