@@ -23,12 +23,16 @@ p{
     text-align: center;
 }
 
+label.txtFormn.txtColumB{
+    margin-top: 16px;
+}
+
 label.txtForm{
     font-family: 'Albert Sans';
     font-weight: 600;
     font-size: 20px;
     color: #CD8D39;
-    margin-bottom: 3px;
+    margin-bottom: 3%;
 }
 
 p.txtForm{
@@ -102,6 +106,6 @@ input{
     }
 
     p.txtForm{
-        margin-bottom: 5%;
-}
+        margin-bottom: 3%;
+    }
 }
