@@ -44,9 +44,56 @@
             </div>
           </nav>
     </header>
-    <section>
-    
-    </section>
+    <form>
+     <div class="columnsForm columnA">
+      <label for="contacName" class="txtForm">Nombre Completo:</label>
+      <input class="inputOne" type="text" id="contacName" name="contacName" size="30" placeholder="Nombre y Apellido" required>
+      <label for="email" class="txtForm">E-mail de contacto:</label>
+      <input class="inputOne" type="email" id="email" name="email" size="30" placeholder="Email donde contactarnos" required>
+      <label for="phone" class="txtForm">Numero de contacto:</label>
+      <input class="inputOne typeNumber" type="number" id="phone" name="phone" size="30" placeholder="Ej: (249) 4111111" maxlength="13" minlength="7" required>
+      <br>
+      <p class="txtForm"> Elije el barrio donde vives (si es necesario)</p>
+      <select name="menu">
+        <option value="Centro">Zona centro</option>
+        <option value="Calvario">El Calvario</option>
+        <option value="Movediza">La Movediza</option>
+        <option value="Magg">Maggiori</option>
+        <option value="Terminal">Terminal</option>
+        <option value="Cerrito">El Cerrito</option>
+        <option value="Tunitas">Las Tunitas</option>
+        <option value="V.Aguirre">Villa Aguirre</option>
+      </select>
+      <br>
+      <br>
+      <p class="txtForm">Indica el/los motivos del contacto</p>
+      <div class="containerCheck">
+        <input type="checkbox" id="" name="" value="">
+        <label for="">Quiero donar</label><br>
+        <input type="checkbox" id="" name="" value="">
+        <label for="">Quiero comprar</label><br>
+        <input type="checkbox" id="" name="" value="">
+        <label for="">Quiero informacion de castracion</label><br>
+        <input type="checkbox" id="" name="" value="">
+        <label for="">Quiero adoptar</label><br>
+        <input type="checkbox" id="" name="" value="">
+        <label for="">Otro motivo de contacto</label><br>
+      </div>
+     </div> 
+    <div class="columnsForm columnB">
+      <div class="imgCont">
+       <img src="../img/img-form.jpg" alt="perro cachorro">
+      </div>
+      <p class="txtForm txtColumB">Incluya informacion a dicional si es nesesario</p>
+      <textarea name="texto" rows="4" cols="35" placeholder="Escriba si desea agragar información o aclarar algo"></textarea>
+      <br>
+      <br>
+      <div class="button">
+       <input type="submit" value="Enviar">
+       <input type="reset" value="Reiniciar"> 
+      </div>
+    </div>
+    </form>
     <footer>
         <p>Mailen cao</p>
         <div class="brands">

@@ -1,3 +1,107 @@
 @import url(./General.css);
 
 /*----------SECTION-----------*/
+
+form{
+    margin: 13% 7% 13% 7%;
+}
+
+.columnsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.imgCont{
+    display: none;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    text-align: center;
+}
+
+label.txtForm{
+    font-family: 'Albert Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #CD8D39;
+    margin-bottom: 3px;
+}
+
+p.txtForm{
+    color: #CD8D39;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.inputOne{
+    margin-bottom: 3%;
+}
+
+select{
+    width: 200px;
+    height: 35px;
+    background-color: #deebc7;
+    border: black solid 2px;
+}
+
+input{
+    background-color: #deebc7;
+}
+
+.typeNumber::-webkit-outer-spin-button, .typeNumber::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*Firefox*/
+.typeNumber{
+    -moz-appearance: textfield;
+}
+
+@media screen and (min-width: 1024px) {
+    Form{
+        display: flex;
+        flex-direction: row;
+        margin: 11% 6% 10% 6%;
+    }
+
+    .columnsForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 50%;
+    }
+
+    .columnA{
+        border-right: #CD8D39 solid 2px;
+    }
+    
+    .columnB{
+        text-align: end;
+        margin-left: 2%;
+        position: relative;
+        bottom: 24px;
+    }
+
+    .imgCont{
+        display: block;
+    }
+
+     .imgCont img{
+        width: 377px;
+        border-radius: 20%;
+        filter: opacity(0.85);
+        display: block;
+    }
+
+    .txtColumB{
+        margin-top: 10%;
+    }
+
+    p.txtForm{
+        margin-bottom: 5%;
+}
+}
